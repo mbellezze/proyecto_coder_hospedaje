@@ -1,0 +1,101 @@
+/* PARAMETROS GENERALES */
+* {
+  padding: 0;
+  margin: 0; }
+
+.logoModif {
+  position: absolute;
+  z-index: 100;
+  padding: 0 20px;
+  top: 0; }
+
+.videoContainer {
+  position: fixed;
+  z-index: -1; }
+
+@media (min-aspect-ratio: 16 / 9) {
+  .videoContainer {
+    width: 100%;
+    height: auto; } }
+
+@media (max-aspect-ratio: 16 / 9) {
+  .videoContainer {
+    width: auto;
+    height: 100%; } }
+
+/* TITULOS SECUNDARIOS EN LAS DIFERENTES PAGINAS*/
+.titulo {
+  color: firebrick;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 4rem;
+  text-align: center;
+  padding: 50px 0px 15px 0px; }
+
+/* PARRAFOS */
+.parrafo {
+  color: black;
+  text-align: center;
+  margin: 20px 250px 20px 250px;
+  font-size: 1.1rem; }
+
+.flexModif {
+  padding: 0 90px 0 90px;
+  margin: 30px 0 60px 0; }
+
+.iconModif {
+  padding: 0 90px 0 90px;
+  margin-top: 80px; }
+
+.iconModif:hover {
+  color: red; }
+
+.boxSemana {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 30rem;
+  height: 15rem;
+  padding: 15px 0 0 20px; }
+
+.boxSemana:hover {
+  box-shadow: 0 4px 8px 0 peru, 0 6px 20px 0 peru; }
+
+.boxFinDeSemana {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 30rem;
+  height: 15rem;
+  padding: 15px 0 0 20px; }
+
+.boxFinDeSemana:hover {
+  box-shadow: 0 4px 8px 0 peru, 0 6px 20px 0 peru; }
+
+.boxServicios ul li {
+  list-style-type: none; }
+
+.footerModif {
+  background-color: lightgray;
+  position: absolute;
+  width: 100%;
+  line-height: 15px;
+  padding: 15px 0 15px 0;
+  margin-top: 20px; }
+  .footerModif .footText1 {
+    border-right: 1px solid black;
+    padding-right: 90px; }
+  .footerModif .footText2 {
+    display: flex;
+    align-items: center;
+    padding-right: 70px; }
+
+.carousel h5 {
+  color: white;
+  font-size: 3rem; }
+
+.carousel p {
+  color: white;
+  font-size: 1.5rem; }
+
+.flexGaleria {
+  padding: 20px; }
+  .flexGaleria .imagenModif {
+    transition: all 1s; }
+  .flexGaleria .imagenModif:hover {
+    transform: scale(1.25); }
