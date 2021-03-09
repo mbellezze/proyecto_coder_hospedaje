@@ -25,66 +25,6 @@
   text-align: end;
 }
 
-/* MEDIA QUERYS*/
-@media (min-aspect-ratio: 16/9) {
-  .videoContainer {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  .videoContainer {
-    width: auto;
-    height: 100%;
-  }
-}
-
-@media (max-width: 575px) {
-  .logoModif img {
-    width: 8.37rem;
-    height: 4.37rem;
-  }
-  .navModif {
-    margin: 0;
-    font-size: 0.9rem;
-  }
-  .titulo {
-    font-size: 2rem;
-  }
-  .parrafo {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-  .logoModif img {
-    width: 8.37rem;
-    height: 4.37rem;
-  }
-  .navModif {
-    margin: 0;
-    font-size: 1.01rem;
-  }
-  .titulo {
-    font-size: 2rem;
-  }
-  .parrafo {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .logoModif img {
-    width: 10.5rem;
-    height: 5.31rem;
-  }
-  .navModif {
-    margin: 0;
-    font-size: 1.03rem;
-  }
-}
-
 /* TITULOS SECUNDARIOS EN LAS DIFERENTES PAGINAS*/
 .titulo {
   color: firebrick;
@@ -156,14 +96,27 @@
 .flexModifServ {
   padding-top: 20px;
   font-family: "Reem Kufi", sans-serif;
+  flex-direction: column;
+}
+
+.iconModif1 {
+  padding: 0 0 20px 35px;
 }
 
 .iconModif1:hover {
   color: dodgerblue;
 }
 
+.iconModif2 {
+  padding: 0 0 20px 35px;
+}
+
 .iconModif2:hover {
   color: lightslategrey;
+}
+
+.iconModif3 {
+  padding: 0 0 20px 35px;
 }
 
 .iconModif3:hover {
@@ -187,6 +140,138 @@
   .footText2 {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+
+/* MEDIA QUERYS*/
+@media (min-aspect-ratio: 16/9) {
+  .videoContainer {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .videoContainer {
+    width: auto;
+    height: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .logoModif img {
+    width: 8.37rem;
+    height: 4.37rem;
+  }
+  .navModif {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  .titulo {
+    font-size: 2rem;
+    padding-top: 40px;
+  }
+  .parrafo {
+    font-size: 1rem;
+  }
+  .flexModifAloj {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+  }
+  .boxSemana {
+    width: 15rem;
+    height: 15rem;
+    padding: 5px 0 0 10px;
+    h6 {
+      font-size: 1rem;
+      padding-top: 5px;
+    }
+    p,
+    ul {
+      font-size: 0.8rem;
+    }
+  }
+  .boxFinDeSemana {
+    width: 15rem;
+    height: 15rem;
+    padding: 5px 0 0 10px;
+    h6 {
+      font-size: 1rem;
+      padding-top: 5px;
+    }
+    p,
+    ul {
+      font-size: 0.8rem;
+    }
+  }
+  .flexModifServ {
+    width: 15rem;
+    height: 15rem;
+    font-size: 0.8rem;
+  }
+  .flexMediaQ {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+  .footerModif {
+    flex-wrap: wrap;
+    padding: 5px 0 0 0;
+    .footText1 {
+      p {
+        font-size: 0.8rem;
+      }
+    }
+    .footText2 {
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .logoModif img {
+    width: 8.37rem;
+    height: 4.37rem;
+  }
+  .navModif {
+    margin: 0;
+    font-size: 1.01rem;
+  }
+  .titulo {
+    font-size: 2rem;
+  }
+  .parrafo {
+    font-size: 1rem;
+  }
+  .boxSemana {
+    padding: 0;
+    h6 {
+      font-size: 1rem;
+    }
+    p,
+    ul {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .logoModif img {
+    width: 10.5rem;
+    height: 5.31rem;
+  }
+  .navModif {
+    margin: 0;
+    font-size: 1.03rem;
+  }
+  .titulo {
+    font-size: 3rem;
+  }
+  .parrafo {
+    font-size: 1.1rem;
   }
 }
 
